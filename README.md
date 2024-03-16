@@ -8,7 +8,11 @@
 
 ## A SwiftUI App to Classify Human Emotions
 
-### [**Dataset:**](https://www.kaggle.com/datasets/samaneheslamifar/facial-emotion-expressions)
+### **Dataset:**
+- [**Kaggle**](https://www.kaggle.com/datasets/samaneheslamifar/facial-emotion-expressions)
+
+### **Model:**
+- Uploaded to [**HuggingFace 🤗**](https://huggingface.co/c2p-cmd/FaceEmotionClassifier)
 
 ### Preview:
 <table>
