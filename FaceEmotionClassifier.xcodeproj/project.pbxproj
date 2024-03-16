@@ -11,6 +11,10 @@
 		0078B4C22BA58ED2004315C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0078B4C12BA58ED2004315C8 /* ContentView.swift */; };
 		0078B4C42BA58ED3004315C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0078B4C32BA58ED3004315C8 /* Assets.xcassets */; };
 		0078B4C72BA58ED3004315C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0078B4C62BA58ED3004315C8 /* Preview Assets.xcassets */; };
+		0078B4CE2BA58F32004315C8 /* Image+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0078B4CD2BA58F32004315C8 /* Image+CVPixelBuffer.swift */; };
+		0078B4D02BA58F69004315C8 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0078B4CF2BA58F69004315C8 /* ContentViewModel.swift */; };
+		0078B4D22BA596F0004315C8 /* Face Emotion Classifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0078B4D12BA596F0004315C8 /* Face Emotion Classifier.mlmodel */; };
+		0078B4D42BA5A86F004315C8 /* Camera Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0078B4D32BA5A86F004315C8 /* Camera Preview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		0078B4C12BA58ED2004315C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0078B4C32BA58ED3004315C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0078B4C62BA58ED3004315C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0078B4CD2BA58F32004315C8 /* Image+CVPixelBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		0078B4CF2BA58F69004315C8 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		0078B4D12BA596F0004315C8 /* Face Emotion Classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "Face Emotion Classifier.mlmodel"; sourceTree = "<group>"; };
+		0078B4D32BA5A86F004315C8 /* Camera Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Camera Preview.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +60,13 @@
 			isa = PBXGroup;
 			children = (
 				0078B4BF2BA58ED2004315C8 /* FaceEmotionClassifierApp.swift */,
+				0078B4CD2BA58F32004315C8 /* Image+CVPixelBuffer.swift */,
 				0078B4C12BA58ED2004315C8 /* ContentView.swift */,
 				0078B4C32BA58ED3004315C8 /* Assets.xcassets */,
 				0078B4C52BA58ED3004315C8 /* Preview Content */,
+				0078B4CF2BA58F69004315C8 /* ContentViewModel.swift */,
+				0078B4D12BA596F0004315C8 /* Face Emotion Classifier.mlmodel */,
+				0078B4D32BA5A86F004315C8 /* Camera Preview.swift */,
 			);
 			path = FaceEmotionClassifier;
 			sourceTree = "<group>";
@@ -137,6 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0078B4D42BA5A86F004315C8 /* Camera Preview.swift in Sources */,
+				0078B4D02BA58F69004315C8 /* ContentViewModel.swift in Sources */,
+				0078B4D22BA596F0004315C8 /* Face Emotion Classifier.mlmodel in Sources */,
+				0078B4CE2BA58F32004315C8 /* Image+CVPixelBuffer.swift in Sources */,
 				0078B4C22BA58ED2004315C8 /* ContentView.swift in Sources */,
 				0078B4C02BA58ED2004315C8 /* FaceEmotionClassifierApp.swift in Sources */,
 			);
@@ -275,6 +291,9 @@
 				DEVELOPMENT_TEAM = VD4JPC3R94;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSCameraUsageDescription = "For live preview";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To pick photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +323,9 @@
 				DEVELOPMENT_TEAM = VD4JPC3R94;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSCameraUsageDescription = "For live preview";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To pick photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
